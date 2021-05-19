@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    background: transparent;
+}
+
+#error {
+    color: rgb(255, 255, 255);
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 380px;
+    height: 420px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgba(0, 0, 0);
+    box-shadow: 0 5px 22px 0 rgba(23, 34, 151, 0.37);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background: transparent;
+}
+
+button {
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .5s;
+    letter-spacing: 3px;
+    margin: 70px 40px;
+    overflow: hidden;
+    font-size: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 0 5px 22px 0 rgba(209, 211, 233, 0.37);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}

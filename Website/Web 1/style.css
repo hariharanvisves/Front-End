@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+}
+
+.main {
+    width: 100%;
+    height: 115vh;
+    position: relative;
+}
+
+header {
+    width: 97%;
+    height: 90vh;
+    border-radius: 25px;
+    text-align: center;
+    margin: 1.4% auto;
+    background: linear-gradient(0deg, rgba(0, 252, 165, 1)0%, rgba(255, 245, 95, 1)86%)
+}
+
+.logo {
+    position: absolute;
+    left: 3.7%;
+    top: 3%;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    margin: 2.1em;
+}
+
+ul li {
+    padding-left: 3.4em;
+    cursor: pointer;
+}
+
+.su {
+    position: absolute;
+    right: 3.7%;
+    top: 2.4%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px;
+    width: 100px;
+    background: rgba(240, 255, 255, 0.475);
+    color: rgb(34, 34, 34);
+    outline: none;
+}
+
+.t-box {
+    width: 500px;
+    margin: 96px auto;
+}
+
+h1 {
+    font-size: 4.2em;
+    font-weight: 500;
+}
+
+.t-box p {
+    margin-top: 1.1em;
+    margin-bottom: 2.7em;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px;
+    width: 200px;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    font-size: 18px;
+    ;
+}
+
+.btn .fa {
+    padding-left: 0.5em;
+}
+
+.flex {
+    display: flex;
+    margin: 0 auto;
+}
+
+.features {
+    width: 87%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.h2 {
+    font-size: 2.8em;
+    font-weight: 300;
+}
+
+.img {
+    width: 64px;
+    text-align: center;
+    float: left;
+    background: rgb(34, 34, 34);
+    padding: 8px;
+    border-radius: 6px;
+    color: rgb(127, 255, 212);
+    font-size: 2em;
+}
+
+.co-l,
+.co-r {
+    margin: 2em;
+    width: 500px;
+}
+
+.features p {
+    text-align: left;
+    padding-left: 5.1em;
+    padding-top: 0.3em;
+}

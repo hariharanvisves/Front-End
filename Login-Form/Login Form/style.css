@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.login-box {
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.65;
+    color: rgb(255, 255, 255);
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 10px 10px 60px rgb(255, 192, 203);
+}
+
+.login-box h1 {
+    float: left;
+    font-size: 50px;
+    border-bottom: 4px solid rgb(95, 158, 160);
+    margin-bottom: 50px;
+    margin-left: 20px;
+    /* margin-top: 5px; */
+    padding: 13px 0;
+}
+
+.textbox {
+    width: 93.5%;
+    overflow: hidden;
+    font-size: 30px;
+    padding: 8px 0;
+    margin: 8px 0;
+    margin-left: 20px;
+    border-bottom: 1px solid rgb(95, 158, 160);
+    /* color: rgb(255, 255, 255); */
+    padding-bottom: 0px;
+}
+
+.textbox i {
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input {
+    border: none;
+    background: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    width: 80%;
+    float: left;
+    margin: 1px 5px;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    margin: 12px 90px;
+    padding: 5px;
+    padding-bottom: 40px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    background: none;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 2px solid rgb(95, 158, 160);
+}
+
+.button:hover {
+    background-color: rgb(0, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 255, 255);
+}
